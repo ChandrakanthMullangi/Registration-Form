@@ -1,0 +1,79 @@
+/* Write your CSS code here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ea580c;
+}
+
+.label {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-family: Roboto;
+  margin-top: 15px;
+}
+
+.input {
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  font-family: Roboto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.submit-button {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ea580c;
+  padding: 8px 0px;
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-family: Roboto;
+}
+
+.blur {
+  background-color: #fef2f4;
+  border: 2px solid #ff0b37;
+}
+
+.registration {
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
+    align-items: center;
+}
+
+.submitted-text {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.submit-another-response {
+  font-family: Roboto;
+  background-color: #ea580c;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  color: #ffffff;
+  width: 300px;
+  font-size: 15px;
+}
